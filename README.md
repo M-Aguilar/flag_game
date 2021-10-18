@@ -1,11 +1,38 @@
-Here are a couple javascript games. The code is in mostly funtional condition. The next step from here is to standardize inputs
-with the goal of allowing a limitess iterations of games through providing game elements.
-(e.g. flag&countries.csv, countries&names.geojson) 
+Here are a couple javascript games.
 
 Flag Game
-This script sxpects certain HTML tags with the class "start" and removes them when initiating the game.
-Takes a csv file as input with each line containing two comma separated varuables. The first variable being
-the question (Flag) and the second being the answer (Country Name).
+This script is implemented on a Django based web application. It expects to remove elements with a "start" class.
+It takes a csv file as input with each line containing two comma separated varuables. Each line corresponds to a specific country/territory.
+<table>
+  <tr>
+    <th>
+      Emoji
+    </th>
+    <th>
+      Code
+    </th>
+    <th>
+      Country/Territory Name
+    </th>
+    <th>
+      SVG file path
+    </th>
+  </tr>
+  <tr>
+    <td>
+      🇺🇸
+    </td>
+    <td>
+      US
+    </td>
+    <td>
+      United States
+    </td>
+    <td>
+      united-states.svg
+    </td>
+  </tr>
+</table>
 
 Country Quiz
 This script expects elements with the class "start" when initializing the setup and removes them.
